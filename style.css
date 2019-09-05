@@ -24,3 +24,6 @@
 			border: none;
 			outline: none;
 		}
+		input{
+			font-size: 1rem !important;
+		}
