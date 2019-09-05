@@ -13,6 +13,36 @@
 			left: 50%;
 			transform: translate(-50%, -50%);
 		}
+		.center_itand{
+			position: absolute;
+			top: 150%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+		.center_itnor{
+			position: absolute;
+			top: 250%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+		.center_itnand{
+			position: absolute;
+			top: 350%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+		.center_itexor{
+			position: absolute;
+			top: 450%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+		.center_itexnor{
+			position: absolute;
+			top: 550%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
 		.edit{
 			display: flex;
 		}
