@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Logic gates </title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div class="center_it text-center">
+	<div class="text-center edit">
+		<div class="form-group col-sm-6">
+			<label> A </label>
+			<input type="number" max="1" min="0" name="valuea" class="form-control" id="value_A" required="">
+		</div>
+		<div class="form-group col-sm-6">
+			<label> B </label>
+			<input type="number" max="1" min="0" name="valueb" class="form-control" id="value_B" required="">
+		</div>
+	</div><br><br>
+	
+	<div class="checkbtns">
+	<button class="btn btn-info" onclick="refresh()"> Refresh </button>
+	<button class="btn btn-success" onclick="check()"> Check Result </button>
+	</div>
+	<br><br><br>
+
+	<div class="form-group col-sm-12">
+			<label> Output </label>
+			<h4 class="text-success" id="show_result">  </h4>
+		</div>
+	</div>
+
+</body>
+</html>
