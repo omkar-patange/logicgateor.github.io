@@ -15,31 +15,31 @@
 		}
 		.center_itand{
 			position: absolute;
-			top: 150%;
+			top: 125%;
 			left: 50%;
 			transform: translate(-50%, -50%);
 		}
 		.center_itnor{
 			position: absolute;
-			top: 250%;
+			top: 200%;
 			left: 50%;
 			transform: translate(-50%, -50%);
 		}
 		.center_itnand{
 			position: absolute;
-			top: 350%;
+			top: 275%;
 			left: 50%;
 			transform: translate(-50%, -50%);
 		}
 		.center_itexor{
 			position: absolute;
-			top: 450%;
+			top: 350%;
 			left: 50%;
 			transform: translate(-50%, -50%);
 		}
 		.center_itexnor{
 			position: absolute;
-			top: 550%;
+			top: 425%;
 			left: 50%;
 			transform: translate(-50%, -50%);
 		}
